@@ -16,13 +16,86 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Manjari&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css" />
-    <script src="main.js"></script>
+   
     <title>Schedule</title>
 </head>
 
 <body>
+ 
+ <div id="wrapper">
+        <div class="form-container">
+            
+                <h4>Schedule your Appointment</h4> 
+            <form action="" id="eight">
+              <div class="form-group">
+    
+                <label for="name" class="sr-only">First Name</label>
+                <input type="text" class="form-control" placeholder="First Name...">
+                <span class="bar"></span>
+              </div>
+              <div class="form-group">
+    
+                <label for="name" class="sr-only">Lastname</label>
+                <input type="text" class="form-control" placeholder="Lastname...">
+                <span class="bar"></span>
+              </div>
+              <div class="form-group">
+    
+                <label for="number" class="sr-only">Date of Birth</label>
+                <input type="text" class="form-control" placeholder="Date of Birth...">
+                <span class="bar"></span>
+              </div>
+              <div class="form-group">
+    
+                <label for="text" class="sr-only">Medical Record Id</label>
+                <input type="text" class="form-control" placeholder="Medical Record Id...">
+                <span class="bar"></span>
+              </div>
+              <div class="form-group">
+    
+                    <label for="text" class="sr-only">Phone Number</label>
+                    <input type="text" class="form-control" placeholder="Phone Number...">
+                    <span class="bar"></span>
+                  </div>
+             
+                  <div class="form-group">
+                        <label for="input" class="sr-only">date</label>
+                        <input type="text" class="form-control" id="datepicker" placeholder="date">
+                      </div> 
+                  
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1"  class="sr-only">select</label>
+                      <select class="form-control" id="exampleFormControlSelect1" placeholder="select hours">
+                        <option>select hours...</option>
+                        <option>9:00 AM</option>
+                        <option>10:00 AM</option>
+                        <option>2:00 PM</option>
+                        <option>4:00 PM</option>
+                      </select>
+                    </div>
+                  <a class="btn btn-primary btn-md" href="home.html">Send Request</a>
+              </form>
+        </div>
+        
+ </div>
+ <script>
+        $(function() {
+            $( "#datepicker" ).datepicker(
+            {
+                beforeShowDay: function(d) {
+                    var day = d.getDay();
+                    return [(day != 0 && day != 3)];
+                }
+            });
+          });
+ </script>
+ 
 </body>
+
 </html>
