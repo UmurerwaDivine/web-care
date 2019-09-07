@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Manjari&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+    <title>Hospitals</title>
+</head>
+
+<body>
+    <nav class="side">
+        <header>
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                    <a href="history.html">MyHistory</a>
+                    <a href="doctor.html">Doctors</a>
+                    <a href="health.html">MyHealth</a>
+                    <a href="prescription.html">MyPrescription</a>
+                </li>
+            </ul>
+        </header>
+    </nav>
+    <h4>List Of Hospitals</h4>
+    <!-- Search form -->
+    <div class="md-form mt-0">
+        <input class="form-control" id="myInput" type="text" placeholder="Search" aria-label="Search">
+    </div>
+    <table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th class="th-sm">Hospital Name
+                </th>
+                <th class="th-sm">District
+                </th>
+                <th class="th-sm">Sector
+                </th>
+                <th class="th-sm">Open Hours
+                </th>
+                <th class="th-sm">Ownership
+                </th>
+                <th class="th-sm">Location
+                </th>
+                <th class="th-sm">Insurances
+                </th>
+            </tr>
+        </thead>
+        <tbody id="myTable">
+            <tr>
+                <td>Legacy Clinics</td>
+                <td>Kicukiro</td>
+                <td>Kanombe</td>
+                <td>8:00AM-9:00PM</td>
+                <td>Private</td>
+                <td>KK 3 Rd,<a href="#"> On Map</a></td>
+                <td>RSSB,SAHAM,Prime</td>
+            </tr>
+            <tr>
+                <td>King Faisal Hospital</td>
+                <td>Gasabo</td>
+                <td>Kacyiru</td>
+                <td>24hours</td>
+                <td>Private</td>
+                <td>KG 544 ST 10,<a href="#"> On Map</a></td>
+                <td>RSSB,SAHAM,Prime</td>
+            </tr>
+            <tr>
+                <td>CHUK</td>
+                <td>Nyarugenge</td>
+                <td>Nyarugenge</td>
+                <td>24hours</td>
+                <td>Public</td>
+                <td>KG 544 ST 10,<a href="#"> On Map</a></td>
+                <td>RSSB,SAHAM,Prime</td>
+            </tr>
+            <tr>
+                <td>Legacy Clinics</td>
+                <td>Kicukiro</td>
+                <td>Kanombe</td>
+                <td>8:00AM-9:00PM</td>
+                <td>Private</td>
+                <td>KK 3 Rd,<a href="#"> On Map</a></td>
+                <td>RSSB,SAHAM,Prime</td>
+            </tr>
+            <tr>
+                <td>King Faisal Hospital</td>
+                <td>Gasabo</td>
+                <td>Kacyiru</td>
+                <td>24hours</td>
+                <td>Private</td>
+                <td>KG 544 ST 10,<a href="#"> On Map</a></td>
+                <td>RSSB,SAHAM,Prime,UAP</td>
+            </tr>
+            <tr>
+                <td>CHUK</td>
+                <td>Nyarugenge</td>
+                <td>Nyarugenge</td>
+                <td>24hours</td>
+                <td>Public</td>
+                <td>KG 544 ST 10,<a href="#"> On Map</a></td>
+                <td>RSSB,SAHAM,Prime,UAP</td>
+            </tr>
+            <tr>
+                <td>Legacy Clinics</td>
+                <td>Kicukiro</td>
+                <td>Kanombe</td>
+                <td>8:00AM-9:00PM</td>
+                <td>Private</td>
+                <td>KK 3 Rd,<a href="#"> On Map</a></td>
+                <td>RSSB,SAHAM,Prime,UAP</td>
+            </tr>
+            <tr>
+                <td>King Faisal Hospital</td>
+                <td>Gasabo</td>
+                <td>Kacyiru</td>
+                <td>24hours</td>
+                <td>Private</td>
+                <td>KG 544 ST 10,<a href="#"> On Map</a></td>
+                <td>RSSB,SAHAM,Prime,UAP</td>
+            </tr>
+            <tr>
+                <td>CHUK</td>
+                <td>Nyarugenge</td>
+                <td>Nyarugenge</td>
+                <td>24hours</td>
+                <td>Public</td>
+                <td>KG 544 ST 10,<a href="#"> On Map</a></td>
+                <td>Mituel de sante</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+ .background{
+   text-align: center;
+   font-size: 15px;
+   font-family: "Manjari", sans-serif;
+  
+}
+.background a{
+  color: lightseagreen;
+  font-family: "Manjari", sans-serif;
+}
+.background #log a{
+  color:white;
+}
+#wrapper {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 40rem;
+  background-color: #fff;
+  position: relative;
+  padding: 10rem 0;
+  border-radius: 10px;
+  box-shadow: 0 1px 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.switch-login a {
+  color: grey;
+}
+.switch-login span {
+  color: lightseagreen;
+}
+form input {
+  font-size: 15px;
+}
+div button {
+  color: white;
+}
+
+#signout{
+  float: right;
+}
+
+.nav {
+  font-size: 16px;
+  padding: 10px;
+  background: transparent;
+  text-decoration: none;
+  float: right;
+  font-weight: bold;
+}
+
+nav ul li a {
+  padding: 10px;
+  color: #fff;
+  font-family: "Manjari", sans-serif;
+  text-decoration: none;
+}
+ ul li {
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border:1px solid white;
+  text-decoration: none;
+  border-radius:5px;
+  background-color: #fefefe;
+}
+div {
+  padding: 10px;
+}
+#first {
+  -webkit-box-shadow: -1px 6px 15px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 15px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 6px 15px -8px rgba(0, 0, 0, 0.75);
+  border: 0px;
+ width: 18rem;
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+  bottom: 0.5em;
+}
+
+.photo {
+  margin-top: 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url("https://wallpaperplay.com/walls/full/2/0/8/13986.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+}
+h4 {
+  font-family: "Manjari", sans-serif;
+}
+
+#padd #third {
+  background: transparent;
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  border: 0px;
+  padding-top: 200px;
+  text-align: center;
+  padding-bottom: 200px;
+  font-size: 20px;
+  font-family: "Manjari", sans-serif;
+}
+#fourth {
+  background-color: #fff;
+  -webkit-box-shadow: 10px 10px 30px 0px rgba(35, 55, 65, 0.45);
+  box-shadow: 5px 5px 25px 0px rgba(35, 55, 65, 0.45);
+ 
+}
+#fourth form{
+    display:flex;
+}
+#fifth {
+  display: inline;
+}
+h6{
+  font-family: "Manjari", sans-serif;
+}
+#foot {
+  color: white;
+  font-size: 16px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("https://i0.wp.com/www.traveltowestafrica.com/wp-content/uploads/2015/03/land-of-hills.jpg?fit=1600%2C1063&ssl=1");
+  background-size: cover;
+}
+#foot p a {
+  color: white;
+}
+body {
+  background: #fefefe;
+}
+#second a {
+  color: #fff;
+  font-family: "Manjari", sans-serif;
+}
+#second p {
+  font-family: "Crimson Text", serif;
+}
+#foot p {
+  font-family: "Crimson Text", serif;
+}
+#copy {
+  font-family: "Crimson Text", serif;
+  font-size: 15px;
+  background-color: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(35, 55, 65, 0.45);
+  padding-top: 5px;
+  color:black;
+}
+.side {
+  background-image:linear-gradient(rgba(69, 195, 226, 0.7), rgba(69, 195, 226, 0.7)), url("https://wallpaperplay.com/walls/full/2/0/8/13986.jpg");
+  background-size: cover;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+#foot hr {
+  background-color: white;
+}
+#padd #third{
+  margin-left: 50%;
+}
+.table{
+    background-color: #eeeeee;
+    font-family: "Crimson Text", serif;
+    font-size: 16px;
+}
+h3{
+    color: white;
+    font-family:" Manjari", sans-serif;
+    font-size:60px;
+    padding-top:50px ;
+}
+.six h5 {
+    font-family:" Manjari", sans-serif;
+}
+.six p{
+  font-family: "Crimson Text", serif;
+  font-size: 15px;
+}
+
+#seven{
+   color: white;
+   font-family: "Crimson Text", serif;
+   font-size: 15px;
+}
+.gotop{
+ float: right;
+  background: transparent;
+  bottom: 40px;
+  text-decoration: none;
+  text-align: center;
+  
+  /* font-size:20px; */
+}
+.gotop p{
+  color: black;
+  color: lightseagreen;
+  font-family: "Crimson Text", serif;
+}
+#image{
+  border-radius: 50%
+}
+#profile h6{
+  padding: 10px;
+}
+
+#eight h6{
+  font-weight: bold;
+}
+#eight{
+  font-family: "Crimson Text", serif;
+  font-size: 15px;
+}
+#nine{
+  font-family: "Crimson Text", serif;
+}
