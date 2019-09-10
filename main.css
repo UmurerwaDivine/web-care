@@ -10,18 +10,17 @@ html {
   scroll-behavior: smooth;
 }
 
- .background{
-   text-align: center;
-   font-size: 15px;
-   font-family: "Manjari", sans-serif;
-  
+.background {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Manjari", sans-serif;
 }
-.background a{
+.background a {
   color: lightseagreen;
   font-family: "Manjari", sans-serif;
 }
-.background #log a{
-  color:white;
+.background #log a {
+  color: white;
 }
 #wrapper {
   width: 90%;
@@ -55,7 +54,7 @@ div button {
   color: white;
 }
 
-#signout{
+#signout {
   float: right;
 }
 
@@ -74,14 +73,14 @@ nav ul li a {
   font-family: "Manjari", sans-serif;
   text-decoration: none;
 }
- ul li {
+ul li {
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  border:1px solid white;
+  border: 1px solid white;
   text-decoration: none;
-  border-radius:5px;
+  border-radius: 5px;
   background-color: #fefefe;
 }
 div {
@@ -92,7 +91,7 @@ div {
   -moz-box-shadow: -1px 6px 15px -8px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 6px 15px -8px rgba(0, 0, 0, 0.75);
   border: 0px;
- width: 18rem;
+  width: 18rem;
 }
 table.dataTable thead .sorting:after,
 table.dataTable thead .sorting:before,
@@ -109,7 +108,7 @@ table.dataTable thead .sorting_desc_disabled:before {
 
 .photo {
   margin-top: 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("https://wallpaperplay.com/walls/full/2/0/8/13986.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,15 +134,14 @@ h4 {
   background-color: #fff;
   -webkit-box-shadow: 10px 10px 30px 0px rgba(35, 55, 65, 0.45);
   box-shadow: 5px 5px 25px 0px rgba(35, 55, 65, 0.45);
- 
 }
-#fourth form{
-    display:flex;
+#fourth form {
+  display: flex;
 }
 #fifth {
   display: inline;
 }
-h6{
+h6 {
   font-family: "Manjari", sans-serif;
 }
 #foot {
@@ -175,10 +173,14 @@ body {
   background-color: #fff;
   box-shadow: 10px 10px 20px 0px rgba(35, 55, 65, 0.45);
   padding-top: 5px;
-  color:black;
+  color: black;
 }
 .side {
-  background-image:linear-gradient(rgba(69, 195, 226, 0.7), rgba(69, 195, 226, 0.7)), url("https://wallpaperplay.com/walls/full/2/0/8/13986.jpg");
+  background-image: linear-gradient(
+      rgba(69, 195, 226, 0.7),
+      rgba(69, 195, 226, 0.7)
+    ),
+    url("https://wallpaperplay.com/walls/full/2/0/8/13986.jpg");
   background-size: cover;
   font-size: 16px;
   padding: 10px;
@@ -188,61 +190,67 @@ body {
 #foot hr {
   background-color: white;
 }
-#padd #third{
+#padd #third {
   margin-left: 50%;
 }
-.table{
-    background-color: #eeeeee;
-    font-family: "Crimson Text", serif;
-    font-size: 16px;
+.table {
+  background-color: #eeeeee;
+  font-family: "Crimson Text", serif;
+  font-size: 16px;
 }
-h3{
-    color: white;
-    font-family:" Manjari", sans-serif;
-    font-size:60px;
-    padding-top:50px ;
+h3 {
+  color: white;
+  font-family: " Manjari", sans-serif;
+  font-size: 60px;
+  padding-top: 50px;
 }
 .six h5 {
-    font-family:" Manjari", sans-serif;
+  font-family: " Manjari", sans-serif;
 }
-.six p{
+.six p {
   font-family: "Crimson Text", serif;
   font-size: 15px;
 }
 
-#seven{
-   color: white;
-   font-family: "Crimson Text", serif;
-   font-size: 15px;
+#seven {
+  color: white;
+  font-family: "Crimson Text", serif;
+  font-size: 15px;
 }
-.gotop{
- float: right;
+.gotop {
+  float: right;
   background: transparent;
   bottom: 40px;
   text-decoration: none;
   text-align: center;
-  
+
   /* font-size:20px; */
 }
-.gotop p{
+.gotop p {
   color: black;
   color: lightseagreen;
   font-family: "Crimson Text", serif;
 }
-#image{
-  border-radius: 50%
+#image {
+  border-radius: 50%;
 }
-#profile h6{
+#profile h6 {
   padding: 10px;
 }
 
-#eight h6{
+#eight h6 {
   font-weight: bold;
 }
-#eight{
+#eight {
   font-family: "Crimson Text", serif;
   font-size: 15px;
 }
-#nine{
+#nine {
   font-family: "Crimson Text", serif;
+}
+#mode {
+  color: white;
+}
+#mode:hover {
+  color: blue;
 }
