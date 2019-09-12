@@ -8,6 +8,7 @@ html {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
+  height: auto;
 }
 
 .background {
@@ -72,9 +73,11 @@ nav ul li a {
   color: #fff;
   font-family: "Manjari", sans-serif;
   text-decoration: none;
+  list-style-type: none;
 }
-ul li {
+nav ul li {
   text-decoration: none;
+  list-style-type: none;
 }
 
 nav ul li a:hover {
