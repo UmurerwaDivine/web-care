@@ -1,3 +1,5 @@
+@media only screen and (min-width: 600px){
+
 * {
   margin: 0;
   padding: 0;
@@ -115,7 +117,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     url("https://wallpaperplay.com/walls/full/2/0/8/13986.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  text-decoration: none;
+  
 }
 h4 {
   font-family: "Manjari", sans-serif;
@@ -256,4 +258,5 @@ h3 {
 }
 #mode:hover {
   color: blue;
+}
 }
