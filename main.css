@@ -228,14 +228,15 @@ h3 {
   bottom: 40px;
   text-decoration: none;
   text-align: center;
-
+ color: lightseagreen;
+ font-family: "Crimson Text", serif;
   /* font-size:20px; */
 }
-.gotop p {
-  color: black;
-  color: lightseagreen;
-  font-family: "Crimson Text", serif;
+.gotop a{
+  
+  text-decoration: none;
 }
+
 #image {
   border-radius: 50%;
 }
@@ -253,10 +254,5 @@ h3 {
 #nine {
   font-family: "Crimson Text", serif;
 }
-#mode {
-  color: white;
-}
-#mode:hover {
-  color: blue;
-}
+
 }
