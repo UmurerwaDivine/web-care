@@ -12,37 +12,51 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Manjari&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css" />
+
+ 
     <title>Home</title>
 </head>
 
 <body>
 
     <!--Carousel Wrapper-->
-    <div class="photo" id="top">
-        <nav class=”navbar fixed-top navbar-expand-md navbar-light bg-light”>
+    <div class="logo">
+        <a href="home.html"> <img src="images/Hi-Care_Logo-01 (1).png"></a>
+        <div class="search">
+            <form class="form-inline active-cyan-4">
+                <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+                    aria-label="Search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </form>
+        </div>
+    </div>
+    
+    </div>
 
-            <header class="nav">
-                <ul>
-                    <li>
+    <nav class="main-header" style="text-align: center;">
 
-                        <a href="#">Home</a>
-                        <a href="history.html">Medical Record</a>
-                        <a href="doctor.html">Doctors</a>
-                        <a href="#copy">Contacts</a>
-                        <a href="health.html">MyHealth</a>
-                        <a href="prescription.html">MyPrescription</a>
-                        <a href="profile.html">profile</a>
+        <header>
+            <ul>
+                <li>
+
+                    <a href="#">Home</a>
+                    <a href="history.html">Medical Record</a>
+                    <a href="doctor.html">Doctors</a>
+                    <a href="health.html">MyHealth</a>
+                    <a href="prescription.html">MyPrescription</a>
+                    <a href="#" data-toggle="modal" data-target="#request">
+                    Request code</a>
+                    <div class="icons">
+                        <a href="profile.html"><i class="fa fa-user" style="padding-right: 10px;"></i></a>
                         <a href="#" data-toggle="modal" data-target="#myModal">
-                            Notification
-                          </a>
-                    </li>
-                </ul>
-            </header>
+                            <i class="fa fa-bell"></i> </a>
+                    </div>
+                </li>
+            </ul>
+        </header>
 
-        </nav>
-        <h3>Hi-Care
-            <i class="fa fa-heartbeat white-text"> </i></h3>
-
+    </nav>
+    <div class="photo" id="top">
         <div id="padd">
             <div id="third">
                 <div id="fourth">
@@ -63,7 +77,8 @@
                                 <div class="md-form my-0">
                                     <select class="form-control" id="exampleFormControlSelect1">
                                         <option>I need to...</option>
-                                        <option>Pay Bills</option>
+                                        <option>schedule Appointments</option>
+                                        <option>reschedule Appointments</option>
                                         <option>Find A Doctor</option>
                                         <option>Nearby Hospitals</option>
                                         <option>Check My File</option>
@@ -71,7 +86,6 @@
                                         <option>Call an Ambulance</option>
                                     </select>
                                 </div>
-                                <Button class="btn btn-primary">Submit</Button>
                             </form>
                         </div>
                     </div>
@@ -82,56 +96,52 @@
 
     <!--end navbar-->
 
-<!--start content-->
+    <!--start content-->
 
     <div class="row" id="second">
         <div class="col-sm-2 col-md-3">
             <div class="card mb-2" id="first">
-                <img class="card-img-top" src="https://wallpaperplay.com/walls/full/3/5/5/176847.jpg" />
+                <img class="card-img-top" src="https://storage.needpix.com/rsynced_images/stethoscope-icon-2316460_1280.png" />
                 <h4 class="card-title font-weight-bold">Find Doctor</h4>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <a class="btn btn-primary btn-md" href="doctor.html">Find A Doctor</a>
+                <p>Find a primary care physician or a specialist in an area where you live or work.</p>
+                <a class="btn btn-secondary btn-md" href="doctor.html">Find A Doctor</a>
+               
             </div>
         </div>
-        <div class="col-sm-2 col-md-3 ">
+        <div class="col-sm-2 col-md-3">
             <div class="card mb-2" id="first">
                 <img class="card-img-top"
-                    src="https://drvassileva.com/files/bigstock/2016/08/Calendar-With-Doctor-Appointme-1168009.jpg?w=1060&h=795&a=t" />
+                    src="https://icon-library.net/images/appointment-icon/appointment-icon-25.jpg" />
                 <h4 class="card-title font-weight-bold">Schedule</h4>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <a class="btn btn-primary btn-md" href="doctor.html">Request an Appointment</a>
+    <p>For your convenience we offer online appointment scheduling for many doctors and care providers</p>
+                <a class="btn btn-secondary btn-md" href="doctor.html">Request an Appointment</a>
             </div>
         </div>
         <div class="col-sm-2 col-md-3 ">
             <div class="card mb-2" id="first">
                 <img class="card-img-top"
-                    src="https://media.wired.com/photos/5a6a61938c669c70314b300d/master/pass/Google-Map-US_10.jpg" />
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-wfXmH9BXFSr6r2sTbBmnCoWroo7hWUhmASkfOo8vUwWGbP6l" />
                 <h4 class="card-title font-weight-bold">Hospitals</h4>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <a class="btn btn-primary btn-md btn-rounded" href="hospital.html">Hospitals Nearby</a>
+                <p>Search the hospitals in your location</p>
+                <a class="btn btn-secondary btn-md btn-rounded" href="hospital.html">Hospitals Nearby</a>
             </div>
         </div>
-        <div class="col-sm-2 col-md-3 ">
-            <div class="card mb-2" id="first">
-                <img class="card-img-top"
-                    src="https://media.wired.com/photos/5a6a61938c669c70314b300d/master/pass/Google-Map-US_10.jpg" />
-                <h4 class="card-title font-weight-bold">Location</h4>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <p>Lorem Lorem Lorem lorem lorem </p>
-                <a class="btn btn-primary btn-md btn-rounded">Share MyLocation</a>
+        <div class="col-sm-2 col-md-3">
+                <div class="card mb-2" id="first">
+                    <img class="card-img-top"
+                        src="https://1ceflh60yp1iahia1b5kgu14-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/location-icon.png" />
+                    <h4 class="card-title font-weight-bold">Location</h4>
+                    <p>Lorem lorem lorem Lorem lorem lorem Lorem lorem lorem </p>
+                       <a><select class="btn btn-secondary btn-rounded" class="form-control" id="exampleFormControlSelect1"></a>
+                            <option>Filter by location</option>
+                            <option>Kigali</option>
+                            <option>Rwanda</option>
+                            <option>New York</option>
+                            <option>Kampala</option>
+                            <option>Kinshasa</option>
+                        </select>
+                </div>
             </div>
-        </div>
     </div>
 
     <div class="six">
@@ -212,7 +222,7 @@
             </div>
         </div>
     </div>
-     <!--end content-->
+    <!--end content-->
     <!-- Footer -->
     <footer class="page-footer font-small unique-color-dark" id="foot">
         <!-- Footer Links -->
@@ -227,9 +237,8 @@
                     <!-- Content -->
                     <h6 class="text-uppercase font-weight-bold">Health-Care</h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                        consectetur
-                        adipisicing elit.</p>
+                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor <img src="images/Hi-Care_Logo-02 (1).png"></p>
+                        <p></p>
 
                 </div>
                 <!-- Grid column -->
@@ -301,7 +310,7 @@
 
         <!-- Copyright -->
         <a href="#top" class="gotop">
-        Back On Top
+            Back On Top
         </a>
         <!-- <p><a href="#top"> Back On Top</a></p> -->
         <div class="footer-copyright text-center py-3" id="copy">© 2019 Copyright
@@ -311,34 +320,58 @@
 
     </footer>
     <!-- Footer -->
-    
+
     <!-- Button to Open the Modal -->
-    
-  
+
+
     <!-- The Modal -->
     <div class="modal" id="myModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-        
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">Notification</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-          
-          <!-- Modal body -->
-          <div class="modal-body">
-            <p>Dr. John accessed your Medical Record.</p>
-          </div>
-          
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-          
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Notification</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p>Dr. John accessed your Medical Record.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
         </div>
-      </div>
-    </div>  
+    </div>
+    <div class="modal" id="request">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Requested Code</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p>qwe1234</p>
+                    <h6>Valid until 10-09-2019</h6>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Copy Code</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

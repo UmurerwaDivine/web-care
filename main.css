@@ -1,258 +1,323 @@
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
+  html {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+    height: auto;
+    color: #232323;
+  }
 
-html {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  scroll-behavior: smooth;
-  height: auto;
-}
+  .background {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Manjari", sans-serif;
+    color: #232323;
+  }
 
-.background {
-  text-align: center;
-  font-size: 15px;
-  font-family: "Manjari", sans-serif;
-}
-.background a {
-  color: lightseagreen;
-  font-family: "Manjari", sans-serif;
-}
-.background #log a {
-  color: white;
-}
-#wrapper {
-  width: 90%;
-  height: 100vh;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .background a {
+    color: #1089ff;
+    font-family: "Manjari", sans-serif;
+  }
 
-.form-container {
-  width: 100%;
-  max-width: 40rem;
-  background-color: #fff;
-  position: relative;
-  padding: 10rem 0;
-  border-radius: 10px;
-  box-shadow: 0 1px 1.5rem rgba(0, 0, 0, 0.1);
-}
+  .background #log a {
+    color: white;
+  }
 
-.switch-login a {
-  color: grey;
-}
-.switch-login span {
-  color: lightseagreen;
-}
-form input {
-  font-size: 15px;
-}
-div button {
-  color: white;
-}
+  #wrapper {
+    width: 90%;
+    height: 120vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-#signout {
-  float: right;
-}
+  .form-container {
+    width: 100%;
+    max-width: 40rem;
+    background-color: #fff;
+    position: relative;
+    padding: 10rem 0;
+    border-radius: 10px;
+    box-shadow: 0 1px 1.5rem rgba(0, 0, 0, 0.1);
+  }
 
-.nav {
-  font-size: 16px;
-  padding: 10px;
-  background: transparent;
-  text-decoration: none;
-  float: right;
-  font-weight: bold;
-}
+  .switch-login a {
+    color: grey;
+  }
 
-nav ul li a {
-  padding: 10px;
-  color: #fff;
-  font-family: "Manjari", sans-serif;
-  text-decoration: none;
-  list-style-type: none;
-}
-nav ul li {
-  text-decoration: none;
-  list-style-type: none;
-}
+  .switch-login span {
+    color: lightseagreen;
+  }
 
-nav ul li a:hover {
-  border: 1px solid white;
-  text-decoration: none;
-  border-radius: 5px;
-  background-color: #fefefe;
-}
-div {
-  padding: 10px;
-}
-#first {
-  -webkit-box-shadow: -1px 6px 15px -8px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px 6px 15px -8px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 6px 15px -8px rgba(0, 0, 0, 0.75);
-  border: 0px;
-  width: 18rem;
-}
-table.dataTable thead .sorting:after,
-table.dataTable thead .sorting:before,
-table.dataTable thead .sorting_asc:after,
-table.dataTable thead .sorting_asc:before,
-table.dataTable thead .sorting_asc_disabled:after,
-table.dataTable thead .sorting_asc_disabled:before,
-table.dataTable thead .sorting_desc:after,
-table.dataTable thead .sorting_desc:before,
-table.dataTable thead .sorting_desc_disabled:after,
-table.dataTable thead .sorting_desc_disabled:before {
-  bottom: 0.5em;
-}
+  form input {
+    font-size: 15px;
+  }
 
-.photo {
-  margin-top: 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://wallpaperplay.com/walls/full/2/0/8/13986.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  div button {
+    color: white;
+  }
+
+  #signout {
+    float: right;
+  }
+
+  .icons {
+    float: right;
+  }
+
+  .nav {
+    font-size: 16px;
+    background: white;
+    text-decoration: none;
+    float: right;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  nav ul li a {
+    padding: 10px;
+    color: rgb(53, 143, 199);
+    font-family: "Manjari", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+  }
+
+  .search {
+    float: right;
+  }
+
+  nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  nav ul li a:hover {
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #fefefe;
+  }
+
+  div {
+    padding: 10px;
+  }
+
+  #first {
+    -webkit-box-shadow: -1px 6px 15px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 6px 15px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 6px 15px -8px rgba(0, 0, 0, 0.75);
+    border: 0px;
+    width: 18rem;
+  }
+
+  table.dataTable thead .sorting:after,
+  table.dataTable thead .sorting:before,
+  table.dataTable thead .sorting_asc:after,
+  table.dataTable thead .sorting_asc:before,
+  table.dataTable thead .sorting_asc_disabled:after,
+  table.dataTable thead .sorting_asc_disabled:before,
+  table.dataTable thead .sorting_desc:after,
+  table.dataTable thead .sorting_desc:before,
+  table.dataTable thead .sorting_desc_disabled:after,
+  table.dataTable thead .sorting_desc_disabled:before {
+    bottom: 0.5em;
+  }
+
+  .photo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("https://ciotechie.com/wp-content/uploads/2019/04/The_Arizona-Hospital-and-Healthcare-Association-And-PatientPing-Joint-Force-To-Advance-Care-Coordination-Across-Arizona.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .photo1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("https://www.grmedcenter.com/wp-content/uploads/2017/03/img-insurance-515313856.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+  }
+
+  h4 {
+    font-family: "Manjari", sans-serif;
+    color: #232323;
+  }
+
+  #padd #third {
+    background: transparent;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    border: 0px;
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 200px;
+    font-size: 20px;
+    font-family: "Manjari", sans-serif;
+    color: #232323;
+  }
+
+  #fourth {
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(35, 55, 65, 0.45);
+    box-shadow: 5px 5px 25px 0px rgba(35, 55, 65, 0.45);
+  }
+
+  #four {
+    background-color: rgb(255, 255, 255, 0.5);
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(35, 55, 65, 0.45);
+    box-shadow: 5px 5px 25px 0px rgba(35, 55, 65, 0.45);
+  }
+
+  #fourth form {
+    display: flex;
+  }
+
+  #fifth {
+    display: inline;
+  }
+
+  h6 {
+    font-family: "Manjari", sans-serif;
+    
+  }
+
+  #foot {
+    color: white;
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+      url("https://i0.wp.com/www.traveltowestafrica.com/wp-content/uploads/2015/03/land-of-hills.jpg?fit=1600%2C1063&ssl=1");
+    background-size: cover;
+  }
+
+  #foot p a {
+    color: white;
+  }
+
+  body {
+    background: #fefefe;
+  }
+
+  #second a {
+    color: #fff;
+    font-family: "Manjari", sans-serif;
+  }
+
+  #second p {
+    font-family: "Crimson Text", serif;
+  }
+
+  #foot p {
+    font-family: "Crimson Text", serif;
   
-}
-h4 {
-  font-family: "Manjari", sans-serif;
-}
+  }
 
-#padd #third {
-  background: transparent;
-  display: inline-block;
-  width: 50%;
-  height: 50%;
-  border: 0px;
-  padding-top: 200px;
-  text-align: center;
-  padding-bottom: 200px;
-  font-size: 20px;
-  font-family: "Manjari", sans-serif;
-}
-#fourth {
-  background-color: #fff;
-  -webkit-box-shadow: 10px 10px 30px 0px rgba(35, 55, 65, 0.45);
-  box-shadow: 5px 5px 25px 0px rgba(35, 55, 65, 0.45);
-}
-#fourth form {
-  display: flex;
-}
-#fifth {
-  display: inline;
-}
-h6 {
-  font-family: "Manjari", sans-serif;
-}
-#foot {
-  color: white;
-  font-size: 16px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url("https://i0.wp.com/www.traveltowestafrica.com/wp-content/uploads/2015/03/land-of-hills.jpg?fit=1600%2C1063&ssl=1");
-  background-size: cover;
-}
-#foot p a {
-  color: white;
-}
-body {
-  background: #fefefe;
-}
-#second a {
-  color: #fff;
-  font-family: "Manjari", sans-serif;
-}
-#second p {
-  font-family: "Crimson Text", serif;
-}
-#foot p {
-  font-family: "Crimson Text", serif;
-}
-#copy {
-  font-family: "Crimson Text", serif;
-  font-size: 15px;
-  background-color: #fff;
-  box-shadow: 10px 10px 20px 0px rgba(35, 55, 65, 0.45);
-  padding-top: 5px;
-  color: black;
-}
-.side {
-  background-image: linear-gradient(
-      rgba(69, 195, 226, 0.7),
-      rgba(69, 195, 226, 0.7)
-    ),
-    url("https://wallpaperplay.com/walls/full/2/0/8/13986.jpg");
-  background-size: cover;
-  font-size: 16px;
-  padding: 10px;
-  text-decoration: none;
-  font-weight: bold;
-}
-#foot hr {
-  background-color: white;
-}
-#padd #third {
-  margin-left: 50%;
-}
-.table {
-  background-color: #eeeeee;
-  font-family: "Crimson Text", serif;
-  font-size: 16px;
-}
-h3 {
-  color: white;
-  font-family: " Manjari", sans-serif;
-  font-size: 60px;
-  padding-top: 50px;
-}
-.six h5 {
-  font-family: " Manjari", sans-serif;
-}
-.six p {
-  font-family: "Crimson Text", serif;
-  font-size: 15px;
-}
+  #copy {
+    font-family: "Crimson Text", serif;
+    font-size: 15px;
+    background-color: #fff;
+    padding-top: 5px;
+    color: black;
+  }
 
-#seven {
-  color: white;
-  font-family: "Crimson Text", serif;
-  font-size: 15px;
-}
-.gotop {
-  float: right;
-  background: transparent;
-  bottom: 40px;
-  text-decoration: none;
-  text-align: center;
- color: lightseagreen;
- font-family: "Crimson Text", serif;
-  /* font-size:20px; */
-}
-.gotop a{
-  
-  text-decoration: none;
-}
+  .side {
+    background-image: linear-gradient(rgba(69, 195, 226, 0.7),
+        rgba(69, 195, 226, 0.7)),
+      url("https://wallpaperplay.com/walls/full/2/0/8/13986.jpg");
+    background-size: cover;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
 
-#image {
-  border-radius: 50%;
-}
-#profile h6 {
-  padding: 10px;
-}
+  .side a {
+    color: white;
+  }
 
-#eight h6 {
-  font-weight: bold;
-}
-#eight {
-  font-family: "Crimson Text", serif;
-  font-size: 15px;
-}
-#nine {
-  font-family: "Crimson Text", serif;
-}
+  .side a:hover {
+    color: blue;
+  }
 
+  #foot hr {
+    background-color: white;
+  }
+
+  #padd #third {
+    margin-left: 50%;
+  }
+
+  .table {
+    background-color: #eeeeee;
+    font-family: "Crimson Text", serif;
+    font-size: 16px;
+  }
+
+  h3 {
+    color: white;
+    font-family: " Manjari", sans-serif;
+    font-size: 60px;
+    padding-top: 50px;
+  }
+
+  .six h5 {
+    font-family: " Manjari", sans-serif;
+  }
+
+  .six p {
+    font-family: "Crimson Text", serif;
+    font-size: 15px;
+  }
+
+  #seven {
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-size: 15px;
+  }
+
+  .gotop {
+    float: right;
+    background: transparent;
+    bottom: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: lightseagreen;
+    font-family: "Crimson Text", serif;
+    /* font-size:20px; */
+  }
+
+  .gotop a {
+    text-decoration: none;
+  }
+
+  #image {
+    border-radius: 50%;
+  }
+
+  #profile h6 {
+    padding: 10px;
+  }
+
+  #eight h6 {
+    font-weight: bold;
+  }
+
+  #eight {
+    font-family: "Crimson Text", serif;
+    font-size: 15px;
+  }
+
+  #nine {
+    font-family: "Crimson Text", serif;
+  }
 }

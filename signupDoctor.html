@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>H-Care</title>
+</head>
+
+
+<body class="background">
+  <div id="wrapper" style="margin:35px">
+    <div class="form-container">
+        <img src="images/Hi-Care_Logo-01 (1).png"/>
+          <h4>Sign Up</h4>
+        <form action="">
+          <div class="form-group" style="margin-top:55px">
+
+            <label for="email" class="sr-only">First Name</label>
+            <input type="text" class="form-control" placeholder="First Name...">
+            <span class="bar"></span>
+          </div>
+		  <div class="form-group">
+
+            <label for="email" class="sr-only">Second Name</label>
+            <input type="text" class="form-control" placeholder="Second Name...">
+            <span class="bar"></span>
+          </div>
+		  
+		  <div class="form-group">
+
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" class="form-control" placeholder="Email...">
+            <span class="bar"></span>
+          </div>
+		  
+		  <div class="form-group">
+
+          <div class="field_wrapper">
+              <div>
+                <input type="text" class="form-control" name="field_name[]" value="Work ID..."/>
+                <a href="javascript:void(0);" class="add_button" title="Add field"><img src="http://cdn.onlinewebfonts.com/svg/download_221401.png" width="10" height="10"/></a>
+              </div>
+            </div>
+		  
+		  <div class="form-group">
+
+          <div class="field_wrapper">
+              <div>
+                <input type="text" class="form-control" name="field_name[]" value="Work Phone..."/>
+                <a href="javascript:void(0);" class="add_button" title="Add field"><img src="http://cdn.onlinewebfonts.com/svg/download_221401.png" width="10" height="10"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="field_wrapper">
+              <div>
+                <input type="text" class="form-control" name="field_name[]" value="Hospital..."/>
+                <a href="javascript:void(0);" class="add_button" title="Add field"><img src="http://cdn.onlinewebfonts.com/svg/download_221401.png" width="10" height="10"/></a>
+              </div>
+            </div> 
+            <div class="form-group">
+
+            <label for="email" class="sr-only">Password</label>
+            <select class="form-control" class="selectpicker show-tick">
+                <option>specialist</option>
+                <option>Pediatrician</option>
+                <option>Surgeon</option>
+                <option>Cardiologist</option>
+                </select>
+          </div> 
+            <div class="form-group">
+
+                <label for="email" class="sr-only">Password</label>
+                <input type="password" class="form-control" placeholder="Password...">
+                <span class="bar"></span>
+              </div>  
+		  
+			
+          <div class="form-group">
+              <input class="form-check-input" type="checkbox" id="checkbox624">
+              <label for="checkbox" class="white-text form-check-label">Accept the<a href="#" class="green-text font-weight-bold">
+                  Terms and Conditions</a></label>
+            </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary" id="log"><a href="doctorhome.html">Sign Up</a></button>
+          </div>
+        </form>
+        <div class="modal-footer mx-5 pt-3 mb-1">
+            <p class="font-small grey-text d-flex justify-content-end">Already a member? <a href="loginDoctor.html" class="blue-text ml-1">
+                Login</a></p>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var maxField = 10; //Input fields increment limitation
+			var addButton = $('.add_button'); //Add button selector
+			var wrapper = $('.field_wrapper'); //Input field wrapper
+			var fieldHTML = '<div><input type="text" name="field_name[]"class="form-control" value=""/><a href="javascript:void(0);" class="remove_button"><img src="https://cdn1.iconfinder.com/data/icons/color-bold-style/21/05-512.png"width="20" height="20"/></a></div>'; //New input field html 
+			var x = 3; //Initial field counter is 1
+			
+			//Once add button is clicked
+			$(addButton).click(function(){
+				//Check maximum number of input fields
+				if(x < maxField){ 
+					x++; //Increment field counter
+					$(wrapper).append(fieldHTML); //Add field html
+					
+				}
+			});
+			
+			
+		});
+</script>	
+
+	
+
+</html>

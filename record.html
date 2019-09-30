@@ -20,18 +20,15 @@
     <header>
         <ul>
             <li>
-                <a href="home.html">Home</a>
-                <a href="history.html">Medical Record</a>
-                <a href="doctor.html">Doctors</a>
-                <a href="health.html">MyHealth</a>
-                <a href="prescription.html">MyPrescription</a>
+                <a href="doctorhome.html">Home</a>
+                <a href="prescriptions.html">MyPrescription</a>
             </li>
         </ul>
     </header>
 </nav>
 
 <body>
-    <h4>My Medical Record</h4>
+    <h4>john Medical Record</h4>
     <!--Table-->
     <table id="tablePreview" class="table">
         <!--Table head-->
@@ -71,9 +68,9 @@
                 <td>Jane Public</td>
                 <td>2019/09/06</td>
                 <td>35,000 <select class="form-control-sm mx-sm-3 mb-2">
-                    <option value="Doctor">USD</option>
+                    <option value="Doctor" selected>USD</option>
                     <option value="Patient">EURO</option>
-                    <option value="choose" selected>RWF</option>
+                    <option value="choose">RWF</option>
                 </select></td>
             </tr>
             <tr>
@@ -177,6 +174,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="text-center">
+            <a href="" class="btn btn-primary btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Add
+                Patient Info</a>
         </div>
     </div>
     <!--Table-->
